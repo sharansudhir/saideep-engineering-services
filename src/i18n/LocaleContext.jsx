@@ -2,17 +2,18 @@ import { createContext, useContext, useState } from 'react'
 import en from '../content/en-IN.json'
 import fr from '../content/fr-IN.json'
 
-const locales = { en, fr }
+export const locales = {
+  en: { label: 'English', content: en },
+  fr: { label: 'Français', content: fr },
+}
 
 const LocaleContext = createContext(null)
 
 export function LocaleProvider({ children }) {
   const [locale, setLocale] = useState('en')
 
-  const toggle = () => setLocale(l => (l === 'en' ? 'fr' : 'en'))
-
   return (
-    <LocaleContext.Provider value={{ content: locales[locale], locale, toggle }}>
+    <LocaleContext.Provider value={{ content: locales[locale].content, locale, setLocale }}>
       {children}
     </LocaleContext.Provider>
   )
