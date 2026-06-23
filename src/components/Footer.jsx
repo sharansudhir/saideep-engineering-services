@@ -1,4 +1,7 @@
+import content from '../content/en-IN.json'
 import './Footer.css'
+
+const { footer, nav, company } = content
 
 const prefersReducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -13,53 +16,44 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <div className="footer-logo" aria-label="Saideep Engineering Services">
-            <span aria-hidden="true">⚙</span> Saideep Engineering Services
+          <div className="footer-logo" aria-label={company.name}>
+            <span aria-hidden="true">⚙</span> {company.name}
           </div>
-          <p>
-            With over 18 years of industry experience, Saideep Engineering Services
-            delivers precision-engineered tipper body components, hydraulic parts, and
-            sub-assemblies to commercial vehicle manufacturers across India. Quality
-            and reliability — built into every part we make.
-          </p>
+          <p>{footer.description}</p>
           <ul className="footer-badges" aria-label="Credentials">
-            <li><span aria-hidden="true">✔</span> ISO Compliant</li>
-            <li><span aria-hidden="true">✔</span> GST Registered</li>
-            <li><span aria-hidden="true">✔</span> Export Ready</li>
+            {footer.badges.map(badge => (
+              <li key={badge}><span aria-hidden="true">✔</span> {badge}</li>
+            ))}
           </ul>
         </div>
 
         <nav className="footer-links" aria-label="Footer navigation">
-          <h4 id="footer-nav-heading">Quick Links</h4>
+          <h4 id="footer-nav-heading">{footer.navHeading}</h4>
           <ul aria-labelledby="footer-nav-heading">
-            {['home', 'about', 'products', 'contact'].map(id => (
-              <li key={id}>
-                <button onClick={() => scrollTo(id)}>{id.charAt(0).toUpperCase() + id.slice(1)}</button>
+            {nav.links.map(label => (
+              <li key={label}>
+                <button onClick={() => scrollTo(label.toLowerCase())}>{label}</button>
               </li>
             ))}
           </ul>
         </nav>
 
         <address className="footer-contact">
-          <h4>Get In Touch</h4>
-          <div className="footer-contact-item">
-            <span aria-hidden="true">📍</span>
-            <p>802, Neelkanth Enclave, Plot 6 &amp; 67,<br />Sec-2A, Kopar Khairane,<br />Navi Mumbai – 400709, Maharashtra</p>
-          </div>
-          <div className="footer-contact-item">
-            <span aria-hidden="true">👤</span>
-            <p>Mr. Sudhir Kumar, Proprietor</p>
-          </div>
-          <div className="footer-contact-item">
-            <span aria-hidden="true">🏷️</span>
-            <p>GSTIN: 27AYYPS1105J1ZX</p>
-          </div>
+          <h4>{footer.contactHeading}</h4>
+          {footer.contactItems.map((item, i) => (
+            <div className="footer-contact-item" key={i}>
+              <span aria-hidden="true">{item.icon}</span>
+              <p>{item.value.split('\n').map((line, j, arr) => (
+                <span key={j}>{line}{j < arr.length - 1 && <br />}</span>
+              ))}</p>
+            </div>
+          ))}
         </address>
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Saideep Engineering Services. All rights reserved.</p>
-        <p className="footer-bottom-sub">Navi Mumbai, Maharashtra, India <span aria-hidden="true">&nbsp;·&nbsp;</span> Est. 2007</p>
+        <p>© {new Date().getFullYear()} {footer.copyright}</p>
+        <p className="footer-bottom-sub">{footer.sub}</p>
       </div>
     </footer>
   )

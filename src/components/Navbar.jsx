@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
+import content from '../content/en-IN.json'
 import './Navbar.css'
+
+const { nav } = content
 
 const prefersReducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -14,8 +17,6 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const links = ['Home', 'About', 'Products', 'Contact']
-
   const scrollTo = (id) => {
     const el = document.getElementById(id.toLowerCase())
     if (el) el.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth' })
@@ -23,11 +24,11 @@ export default function Navbar() {
   }
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label="Main navigation">
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label={nav.ariaLabel}>
       <button
         className="nav-brand"
         onClick={() => scrollTo('home')}
-        aria-label="Saideep Engineering Services — go to top"
+        aria-label={nav.brandAriaLabel}
       >
         <span className="brand-icon" aria-hidden="true">⚙</span>
         <div>
@@ -39,26 +40,19 @@ export default function Navbar() {
       <button
         className="hamburger"
         onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Toggle navigation menu"
+        aria-label={nav.menuAriaLabel}
         aria-expanded={menuOpen}
         aria-controls="nav-menu"
       >
         <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
       </button>
 
-      <ul
-        id="nav-menu"
-        className={`nav-links ${menuOpen ? 'open' : ''}`}
-        role="list"
-      >
-        {links.map(l => {
-          const id = l === 'Home' ? 'home' : l.toLowerCase()
-          return (
-            <li key={l}>
-              <button onClick={() => scrollTo(id)}>{l}</button>
-            </li>
-          )
-        })}
+      <ul id="nav-menu" className={`nav-links ${menuOpen ? 'open' : ''}`} role="list">
+        {nav.links.map(l => (
+          <li key={l}>
+            <button onClick={() => scrollTo(l === 'Home' ? 'home' : l.toLowerCase())}>{l}</button>
+          </li>
+        ))}
       </ul>
     </nav>
   )
