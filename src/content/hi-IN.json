@@ -1,0 +1,126 @@
+{
+  "company": {
+    "name": "साईदीप इंजीनियरिंग सर्विसेज़",
+    "tagline": "मज़बूत बनाया। टिकाऊ बनाया।",
+    "established": "2007",
+    "proprietor": "श्री सुधीर कुमार",
+    "gst": "27AYYPS1105J1ZX",
+    "address": {
+      "line1": "802, नीलकंठ एन्क्लेव, प्लॉट 6 और 67, सेक-2A",
+      "line2": "कोपर खैरने",
+      "city": "नवी मुंबई",
+      "state": "महाराष्ट्र",
+      "pin": "400709",
+      "country": "भारत"
+    },
+    "hours": "सोमवार – रविवार, सभी दिन खुला",
+    "tradeindia": "https://www.tradeindia.com/saideep-engineering-services-2893711/",
+    "rating": "4",
+    "ratingSource": "TradeIndia"
+  },
+
+  "nav": {
+    "ariaLabel": "मुख्य नेविगेशन",
+    "brandAriaLabel": "साईदीप इंजीनियरिंग सर्विसेज़ — शीर्ष पर जाएं",
+    "menuAriaLabel": "मेनू खोलें/बंद करें",
+    "links": ["होम", "हमारे बारे में", "उत्पाद", "संपर्क"]
+  },
+
+  "hero": {
+    "eyebrow": "स्थापना 2007 · नवी मुंबई, भारत",
+    "title": "मज़बूत बनाया।",
+    "titleHighlight": "टिकाऊ बनाया।",
+    "description": "18 से अधिक वर्षों से, भारत के वाणिज्यिक वाहन निर्माता टिपर बॉडी कंपोनेंट्स, हाइड्रॉलिक पार्ट्स और सब-असेंबलियों के लिए साईदीप इंजीनियरिंग पर भरोसा करते आए हैं — जो असली परिस्थितियों में भी टिकते हैं और हर बार समय पर पहुंचते हैं।",
+    "ctaPrimary": "हमारे उत्पाद",
+    "ctaSecondary": "कोटेशन मांगें",
+    "stats": [
+      { "value": "18+", "label": "वर्षों का अनुभव", "ariaLabel": "18 से अधिक वर्ष" },
+      { "value": "2007", "label": "स्थापना वर्ष" },
+      { "value": "4★", "label": "TradeIndia रेटिंग", "ariaLabel": "4 स्टार रेटिंग" }
+    ]
+  },
+
+  "about": {
+    "heading": "हमारे बारे में",
+    "subheading": "नवी मुंबई में 18 से अधिक वर्षों की इंजीनियरिंग उत्कृष्टता",
+    "sectionTitle": "हम कौन हैं",
+    "body": [
+      "2007 में श्री सुधीर कुमार द्वारा स्थापित, साईदीप इंजीनियरिंग सर्विसेज़ नवी मुंबई स्थित एक फर्म है जो भारत के प्रमुख वाणिज्यिक वाहन निर्माताओं के लिए टिपर बॉडी में उपयोग होने वाले उच्च-गुणवत्ता वाले कंपोनेंट्स, सब-असेंबलियों और असेंबलियों के निर्माण व निर्यात में विशेषज्ञ है।",
+      "लगभग दो दशकों के व्यावहारिक अनुभव के साथ, हमने सटीकता, विश्वसनीयता और समय पर डिलीवरी की प्रतिष्ठा बनाई है। हमारे उत्पाद भारत के वाणिज्यिक परिवहन उद्योग की कठोर मांगों को पूरा करते हैं।"
+    ],
+    "highlights": [
+      { "icon": "🏭", "title": "निर्माता", "desc": "टिपर बॉडी कंपोनेंट्स और असेंबलियों का इन-हाउस निर्माण।" },
+      { "icon": "🚢", "title": "निर्यातक", "desc": "भारत से बाहर के बाज़ारों को गुणवत्तापूर्ण इंजीनियर्ड पार्ट्स का निर्यात।" },
+      { "icon": "🔩", "title": "आपूर्तिकर्ता", "desc": "वाणिज्यिक वाहन OEM के लिए विश्वसनीय आपूर्ति श्रृंखला भागीदार।" },
+      { "icon": "✅", "title": "GST पंजीकृत", "desc": "GST नं.: 27AYYPS1105J1ZX — पूरी तरह अनुपालन-अनुकूल व्यवसाय।" }
+    ]
+  },
+
+  "products": {
+    "heading": "हमारे उत्पाद",
+    "subheading": "पूरे भारत में वाणिज्यिक वाहन निर्माताओं द्वारा विश्वसनीय इंजीनियर्ड कंपोनेंट्स",
+    "items": [
+      { "id": "tail-door-horizontal", "name": "टेल डोर लॉकिंग सिस्टम (हॉरिज़ोंटल)", "desc": "टिपर पिछले दरवाज़ों के लिए हॉरिज़ोंटल लॉकिंग मैकेनिज़्म — टिकाऊ और आसानी से संचालित।", "img": "https://tiimg.tistatic.com/fp/3/703/tipper-body-tail-door-locking-system-horizontal-type-650.jpg" },
+      { "id": "tail-door-chain", "name": "टेल डोर लॉकिंग सिस्टम (चेन टाइप)", "desc": "वाणिज्यिक टिपर बॉडी के लिए चेन टाइप टेल डोर लॉकिंग सिस्टम।", "img": "https://tiimg.tistatic.com/fp/5/703/tipper-body-tail-door-locking-system-chain-type-638.jpg" },
+      { "id": "tail-door-vertical", "name": "टेल डोर लॉकिंग सिस्टम (वर्टिकल हुक)", "desc": "पिछले दरवाज़े को सुरक्षित बंद करने के लिए वर्टिकल हुक लॉकिंग मैकेनिज़्म असेंबली।", "img": "https://tiimg.tistatic.com/fp/1/703/tail-door-locking-mechanism-assembly-vertical-hook-642.jpg" },
+      { "id": "hyfix-body-lock", "name": "Hyfix बॉडी लॉक असेंबली", "desc": "भारी टिपर उपयोग के लिए डिज़ाइन की गई लॉक ब्रैकेट के साथ Hyfix बॉडी लॉक असेंबलियां।", "img": "https://tiimg.tistatic.com/fp/4/703/tipper-body-lock-hyfix-assembly-636.jpg" },
+      { "id": "rear-hinge-bracket", "name": "रियर हिंज ब्रैकेट असेंबली", "desc": "टिपर बॉडियों के सुरक्षित आर्टिकुलेशन के लिए सटीक रूप से निर्मित हिंज ब्रैकेट।", "img": "https://cpimg.tistatic.com/00391247/b/5/Rear-Hinge-Bracket-Assembly.jpg" },
+      { "id": "profile-cut", "name": "प्रोफाइल कट कंपोनेंट्स", "desc": "सटीक विशिष्टताओं के अनुसार निर्मित कस्टम प्रोफाइल-कट स्टील कंपोनेंट्स।", "img": "https://tiimg.tistatic.com/fp/2/703/profile-cut-components-645.jpg" },
+      { "id": "cylinder-bracket", "name": "टिपर सिलिंडर माउंटिंग ब्रैकेट", "desc": "टिपर हाइड्रॉलिक सिलिंडरों के लिए क्रैडल असेंबली और माउंटिंग ब्रैकेट।", "img": "https://tiimg.tistatic.com/fp/2/703/tipper-cylinder-mounting-bracket-cradle-assembly-639.jpg" },
+      { "id": "tyre-winch", "name": "टायर/स्पेयर व्हील लिफ्टिंग विंच", "desc": "वाणिज्यिक ट्रकों पर स्पेयर टायर ले जाने और लगाने के लिए मज़बूत विंच।", "img": "https://cpimg.tistatic.com/08957990/b/4/Tyre-Spare-Wheel-Lifting-Winch.jpg" },
+      { "id": "standard-components", "name": "स्टैंडर्ड टिपर बॉडी कंपोनेंट्स", "desc": "भारत के प्रमुख OEM के लिए टिपर बॉडी पार्ट्स और सब-असेंबलियों की पूरी रेंज।", "img": "https://tiimg.tistatic.com/fp/3/703/standard-tipper-body-components-637.jpg" }
+    ]
+  },
+
+  "contact": {
+    "heading": "संपर्क करें",
+    "subheading": "हमें एक जांच भेजें या सीधे संपर्क करें — हम 24 घंटे में जवाब देते हैं",
+    "infoHeading": "संपर्क जानकारी",
+    "infoItems": [
+      { "icon": "📍", "label": "पता", "value": "802, नीलकंठ एन्क्लेव, प्लॉट 6 और 67, सेक-2A,\nकोपर खैरने, नवी मुंबई,\nमहाराष्ट्र – 400709" },
+      { "icon": "👤", "label": "स्वामी", "value": "श्री सुधीर कुमार" },
+      { "icon": "🕐", "label": "कार्य समय", "value": "सोमवार – रविवार\nसभी दिन खुला" },
+      { "icon": "🏷️", "label": "GST नंबर", "value": "27AYYPS1105J1ZX" }
+    ],
+    "form": {
+      "ariaLabel": "जांच फ़ॉर्म",
+      "fields": [
+        { "id": "field-name",    "name": "name",    "label": "पूरा नाम",   "type": "text",     "placeholder": "आपका नाम",                  "required": true },
+        { "id": "field-email",   "name": "email",   "label": "ईमेल",       "type": "email",    "placeholder": "aapka@email.com",           "required": true },
+        { "id": "field-phone",   "name": "phone",   "label": "फ़ोन",        "type": "tel",      "placeholder": "+91 XXXXX XXXXX",           "required": false },
+        { "id": "field-subject", "name": "subject", "label": "विषय",       "type": "text",     "placeholder": "जैसे उत्पाद जांच",          "required": false },
+        { "id": "field-message", "name": "message", "label": "संदेश",      "type": "textarea", "placeholder": "अपनी ज़रूरत बताएं...",      "required": true }
+      ],
+      "submitLabel": "जांच भेजें",
+      "errors": {
+        "name": "नाम आवश्यक है",
+        "email": "वैध ईमेल पता आवश्यक है",
+        "message": "संदेश आवश्यक है"
+      },
+      "success": {
+        "heading": "संपर्क करने के लिए धन्यवाद!",
+        "body": "हमें आपकी जांच मिल गई है और हम 24 घंटे के भीतर जवाब देंगे।",
+        "reset": "एक और संदेश भेजें"
+      }
+    }
+  },
+
+  "footer": {
+    "description": "18 से अधिक वर्षों के उद्योग अनुभव के साथ, साईदीप इंजीनियरिंग सर्विसेज़ पूरे भारत में वाणिज्यिक वाहन निर्माताओं को सटीक इंजीनियर्ड टिपर बॉडी कंपोनेंट्स, हाइड्रॉलिक पार्ट्स और सब-असेंबलियां प्रदान करती है। गुणवत्ता और विश्वसनीयता — हर पुर्ज़े में निहित।",
+    "badges": ["ISO अनुपालित", "GST पंजीकृत", "निर्यात तैयार"],
+    "navHeading": "त्वरित लिंक",
+    "contactHeading": "संपर्क जानकारी",
+    "contactItems": [
+      { "icon": "📍", "value": "802, नीलकंठ एन्क्लेव, प्लॉट 6 और 67,\nसेक-2A, कोपर खैरने,\nनवी मुंबई – 400709, महाराष्ट्र" },
+      { "icon": "👤", "value": "श्री सुधीर कुमार, स्वामी" },
+      { "icon": "🏷️", "value": "GSTIN: 27AYYPS1105J1ZX" }
+    ],
+    "copyright": "साईदीप इंजीनियरिंग सर्विसेज़। सर्वाधिकार सुरक्षित।",
+    "sub": "नवी मुंबई, महाराष्ट्र, भारत · स्थापना 2007"
+  },
+
+  "langToggle": {
+    "label": "HI",
+    "ariaLabel": "हिन्दी में बदलें"
+  }
+}

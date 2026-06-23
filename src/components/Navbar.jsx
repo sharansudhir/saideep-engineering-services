@@ -20,10 +20,18 @@ export default function Navbar() {
 
   const scrollTo = (label) => {
     const idMap = {
-      Home: 'home', Accueil: 'home',
-      About: 'about', 'À propos': 'about',
-      Products: 'products', Produits: 'products',
-      Contact: 'contact',
+      // English
+      Home: 'home', About: 'about', Products: 'products', Contact: 'contact',
+      // French
+      Accueil: 'home', 'À propos': 'about', Produits: 'products', Contacts: 'contact',
+      // German
+      Startseite: 'home', 'Über uns': 'about', Produkte: 'products', Kontakt: 'contact',
+      // Italian
+      'Chi Siamo': 'about', Prodotti: 'products', Contatti: 'contact',
+      // Spanish
+      Inicio: 'home', Nosotros: 'about', Productos: 'products', Contacto: 'contact',
+      // Hindi
+      होम: 'home', 'हमारे बारे में': 'about', उत्पाद: 'products', संपर्क: 'contact',
     }
     const id = idMap[label] ?? label.toLowerCase()
     const el = document.getElementById(id)
@@ -35,7 +43,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label={nav.ariaLabel}>
       <button
         className="nav-brand"
-        onClick={() => scrollTo('Home')}
+        onClick={() => scrollTo(nav.links[0])}
         aria-label={nav.brandAriaLabel}
       >
         <span className="brand-icon" aria-hidden="true">⚙</span>

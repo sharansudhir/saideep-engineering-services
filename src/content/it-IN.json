@@ -1,0 +1,126 @@
+{
+  "company": {
+    "name": "Saideep Engineering Services",
+    "tagline": "Costruito Robusto. Costruito per Durare.",
+    "established": "2007",
+    "proprietor": "Sig. Sudhir Kumar",
+    "gst": "27AYYPS1105J1ZX",
+    "address": {
+      "line1": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A",
+      "line2": "Kopar Khairane",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "pin": "400709",
+      "country": "India"
+    },
+    "hours": "Lunedì – Domenica, aperto tutti i giorni",
+    "tradeindia": "https://www.tradeindia.com/saideep-engineering-services-2893711/",
+    "rating": "4",
+    "ratingSource": "TradeIndia"
+  },
+
+  "nav": {
+    "ariaLabel": "Navigazione principale",
+    "brandAriaLabel": "Saideep Engineering Services — torna in cima",
+    "menuAriaLabel": "Apri/chiudi menu",
+    "links": ["Home", "Chi Siamo", "Prodotti", "Contatti"]
+  },
+
+  "hero": {
+    "eyebrow": "Fond. 2007 · Navi Mumbai, India",
+    "title": "Costruito Robusto.",
+    "titleHighlight": "Costruito per Durare.",
+    "description": "Da oltre 18 anni, i produttori di veicoli commerciali in India si affidano a Saideep Engineering per componenti di cassoni ribaltabili, parti idrauliche e sottoassiemi in grado di resistere alle condizioni reali — consegnati in tempo, ogni volta.",
+    "ctaPrimary": "I Nostri Prodotti",
+    "ctaSecondary": "Richiedi un Preventivo",
+    "stats": [
+      { "value": "18+", "label": "Anni di Esperienza", "ariaLabel": "Più di 18 anni" },
+      { "value": "2007", "label": "Anno di Fondazione" },
+      { "value": "4★", "label": "Valutazione TradeIndia", "ariaLabel": "Valutazione 4 stelle" }
+    ]
+  },
+
+  "about": {
+    "heading": "Chi Siamo",
+    "subheading": "Oltre 18 anni di eccellenza ingegneristica a Navi Mumbai",
+    "sectionTitle": "La Nostra Storia",
+    "body": [
+      "Fondata nel 2007 dal Sig. Sudhir Kumar, Saideep Engineering Services è un'azienda con sede a Navi Mumbai specializzata nella produzione ed esportazione di componenti, sottoassiemi e assiemi di alta qualità per cassoni ribaltabili utilizzati dai principali produttori di veicoli commerciali in India.",
+      "Con quasi due decenni di esperienza pratica, abbiamo costruito una reputazione di precisione, affidabilità e consegna puntuale. I nostri prodotti soddisfano le rigide esigenze del settore del trasporto commerciale indiano."
+    ],
+    "highlights": [
+      { "icon": "🏭", "title": "Produttore", "desc": "Produzione interna di componenti e assiemi di precisione per cassoni ribaltabili." },
+      { "icon": "🚢", "title": "Esportatore", "desc": "Esportazione di parti di qualità in mercati oltre l'India." },
+      { "icon": "🔩", "title": "Fornitore", "desc": "Partner affidabile della catena di fornitura per i costruttori di veicoli commerciali." },
+      { "icon": "✅", "title": "Registrato GST", "desc": "N. GST: 27AYYPS1105J1ZX — azienda pienamente conforme." }
+    ]
+  },
+
+  "products": {
+    "heading": "I Nostri Prodotti",
+    "subheading": "Componenti tecnici di cui si fidano i produttori di veicoli commerciali in tutta India",
+    "items": [
+      { "id": "tail-door-horizontal", "name": "Sistema di Bloccaggio Portellone (Orizzontale)", "desc": "Meccanismo di bloccaggio orizzontale per portelloni di cassoni ribaltabili — robusto e facile da usare.", "img": "https://tiimg.tistatic.com/fp/3/703/tipper-body-tail-door-locking-system-horizontal-type-650.jpg" },
+      { "id": "tail-door-chain", "name": "Sistema di Bloccaggio Portellone (a Catena)", "desc": "Sistema di bloccaggio a catena per portelloni di cassoni commerciali.", "img": "https://tiimg.tistatic.com/fp/5/703/tipper-body-tail-door-locking-system-chain-type-638.jpg" },
+      { "id": "tail-door-vertical", "name": "Sistema di Bloccaggio Portellone (Gancio Verticale)", "desc": "Assemblaggio del meccanismo di bloccaggio a gancio verticale per chiusura sicura del portellone.", "img": "https://tiimg.tistatic.com/fp/1/703/tail-door-locking-mechanism-assembly-vertical-hook-642.jpg" },
+      { "id": "hyfix-body-lock", "name": "Assemblaggio Bloccaggio Carrozzeria Hyfix", "desc": "Assiemi di bloccaggio Hyfix con staffa di blocco progettati per uso intensivo su ribaltabili.", "img": "https://tiimg.tistatic.com/fp/4/703/tipper-body-lock-hyfix-assembly-636.jpg" },
+      { "id": "rear-hinge-bracket", "name": "Assemblaggio Staffa Cerniera Posteriore", "desc": "Staffe di cerniera fabbricate con precisione per un'articolazione sicura dei cassoni ribaltabili.", "img": "https://cpimg.tistatic.com/00391247/b/5/Rear-Hinge-Bracket-Assembly.jpg" },
+      { "id": "profile-cut", "name": "Componenti Tagliati a Profilo", "desc": "Componenti in acciaio tagliati su misura, fabbricati secondo specifiche precise.", "img": "https://tiimg.tistatic.com/fp/2/703/profile-cut-components-645.jpg" },
+      { "id": "cylinder-bracket", "name": "Staffa di Montaggio Cilindro Ribaltabile", "desc": "Assemblaggio a culla e staffe di montaggio per cilindri idraulici dei ribaltabili.", "img": "https://tiimg.tistatic.com/fp/2/703/tipper-cylinder-mounting-bracket-cradle-assembly-639.jpg" },
+      { "id": "tyre-winch", "name": "Verricello Sollevamento Ruota di Scorta", "desc": "Verricelli robusti per il trasporto e il dispiegamento delle ruote di scorta sui camion.", "img": "https://cpimg.tistatic.com/08957990/b/4/Tyre-Spare-Wheel-Lifting-Winch.jpg" },
+      { "id": "standard-components", "name": "Componenti Standard per Cassoni Ribaltabili", "desc": "Gamma completa di parti e sottoassiemi per cassoni ribaltabili per i principali OEM in India.", "img": "https://tiimg.tistatic.com/fp/3/703/standard-tipper-body-components-637.jpg" }
+    ]
+  },
+
+  "contact": {
+    "heading": "Contattaci",
+    "subheading": "Inviaci una richiesta o contattaci direttamente — rispondiamo entro 24 ore",
+    "infoHeading": "Mettiti in Contatto",
+    "infoItems": [
+      { "icon": "📍", "label": "Indirizzo", "value": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A,\nKopar Khairane, Navi Mumbai,\nMaharashtra – 400709" },
+      { "icon": "👤", "label": "Titolare", "value": "Sig. Sudhir Kumar" },
+      { "icon": "🕐", "label": "Orari di Lavoro", "value": "Lunedì – Domenica\nAperto tutti i giorni" },
+      { "icon": "🏷️", "label": "Numero GST", "value": "27AYYPS1105J1ZX" }
+    ],
+    "form": {
+      "ariaLabel": "Modulo di richiesta",
+      "fields": [
+        { "id": "field-name",    "name": "name",    "label": "Nome Completo", "type": "text",     "placeholder": "Il tuo nome",                  "required": true },
+        { "id": "field-email",   "name": "email",   "label": "Email",         "type": "email",    "placeholder": "tua@email.com",                "required": true },
+        { "id": "field-phone",   "name": "phone",   "label": "Telefono",      "type": "tel",      "placeholder": "+91 XXXXX XXXXX",              "required": false },
+        { "id": "field-subject", "name": "subject", "label": "Oggetto",       "type": "text",     "placeholder": "es. Richiesta prodotto",       "required": false },
+        { "id": "field-message", "name": "message", "label": "Messaggio",     "type": "textarea", "placeholder": "Descrivi la tua esigenza...", "required": true }
+      ],
+      "submitLabel": "Invia Richiesta",
+      "errors": {
+        "name": "Il nome è obbligatorio",
+        "email": "È richiesta un'email valida",
+        "message": "Il messaggio è obbligatorio"
+      },
+      "success": {
+        "heading": "Grazie per averci contattato!",
+        "body": "Abbiamo ricevuto la tua richiesta e ti risponderemo entro 24 ore.",
+        "reset": "Invia un altro messaggio"
+      }
+    }
+  },
+
+  "footer": {
+    "description": "Con oltre 18 anni di esperienza nel settore, Saideep Engineering Services fornisce componenti di precisione per cassoni ribaltabili, parti idrauliche e sottoassiemi ai produttori di veicoli commerciali in tutta India. Qualità e affidabilità — integrate in ogni pezzo che produciamo.",
+    "badges": ["Conforme ISO", "Registrato GST", "Pronto all'Esportazione"],
+    "navHeading": "Link Rapidi",
+    "contactHeading": "Mettiti in Contatto",
+    "contactItems": [
+      { "icon": "📍", "value": "802, Neelkanth Enclave, Plot 6 & 67,\nSec-2A, Kopar Khairane,\nNavi Mumbai – 400709, Maharashtra" },
+      { "icon": "👤", "value": "Sig. Sudhir Kumar, Titolare" },
+      { "icon": "🏷️", "value": "GST: 27AYYPS1105J1ZX" }
+    ],
+    "copyright": "Saideep Engineering Services. Tutti i diritti riservati.",
+    "sub": "Navi Mumbai, Maharashtra, India · Fond. 2007"
+  },
+
+  "langToggle": {
+    "label": "IT",
+    "ariaLabel": "Passa all'italiano"
+  }
+}

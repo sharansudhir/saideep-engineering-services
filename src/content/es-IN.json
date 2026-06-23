@@ -1,0 +1,126 @@
+{
+  "company": {
+    "name": "Saideep Engineering Services",
+    "tagline": "Construido Sólido. Construido para Durar.",
+    "established": "2007",
+    "proprietor": "Sr. Sudhir Kumar",
+    "gst": "27AYYPS1105J1ZX",
+    "address": {
+      "line1": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A",
+      "line2": "Kopar Khairane",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "pin": "400709",
+      "country": "India"
+    },
+    "hours": "Lunes – Domingo, abierto todos los días",
+    "tradeindia": "https://www.tradeindia.com/saideep-engineering-services-2893711/",
+    "rating": "4",
+    "ratingSource": "TradeIndia"
+  },
+
+  "nav": {
+    "ariaLabel": "Navegación principal",
+    "brandAriaLabel": "Saideep Engineering Services — ir al inicio",
+    "menuAriaLabel": "Abrir/cerrar menú",
+    "links": ["Inicio", "Nosotros", "Productos", "Contacto"]
+  },
+
+  "hero": {
+    "eyebrow": "Fundada en 2007 · Navi Mumbai, India",
+    "title": "Construido Sólido.",
+    "titleHighlight": "Construido para Durar.",
+    "description": "Durante más de 18 años, los fabricantes de vehículos comerciales de India han confiado en Saideep Engineering para componentes de carrocería volquete, piezas hidráulicas y subconjuntos que resisten las condiciones reales — entregados a tiempo, siempre.",
+    "ctaPrimary": "Nuestros Productos",
+    "ctaSecondary": "Solicitar Cotización",
+    "stats": [
+      { "value": "18+", "label": "Años de Experiencia", "ariaLabel": "Más de 18 años" },
+      { "value": "2007", "label": "Año de Fundación" },
+      { "value": "4★", "label": "Calificación TradeIndia", "ariaLabel": "Calificación de 4 estrellas" }
+    ]
+  },
+
+  "about": {
+    "heading": "Nosotros",
+    "subheading": "Más de 18 años de excelencia en ingeniería en Navi Mumbai",
+    "sectionTitle": "Quiénes Somos",
+    "body": [
+      "Fundada en 2007 por el Sr. Sudhir Kumar, Saideep Engineering Services es una empresa con sede en Navi Mumbai especializada en la fabricación y exportación de componentes, subconjuntos y conjuntos de alta calidad para carrocerías volquete utilizados por los principales fabricantes de vehículos comerciales en India.",
+      "Con casi dos décadas de experiencia práctica, hemos construido una reputación de precisión, confiabilidad y entrega puntual. Nuestros productos cumplen con las exigentes demandas de la industria del transporte comercial de India."
+    ],
+    "highlights": [
+      { "icon": "🏭", "title": "Fabricante", "desc": "Fabricación propia de componentes y ensamblajes de precisión para carrocerías volquete." },
+      { "icon": "🚢", "title": "Exportador", "desc": "Exportación de piezas de calidad a mercados más allá de India." },
+      { "icon": "🔩", "title": "Proveedor", "desc": "Socio confiable de la cadena de suministro para OEM de vehículos comerciales." },
+      { "icon": "✅", "title": "Registrado GST", "desc": "N.° GST: 27AYYPS1105J1ZX — empresa totalmente conforme." }
+    ]
+  },
+
+  "products": {
+    "heading": "Nuestros Productos",
+    "subheading": "Componentes de ingeniería de confianza para los fabricantes de vehículos comerciales en toda India",
+    "items": [
+      { "id": "tail-door-horizontal", "name": "Sistema de Cierre de Puerta Trasera (Horizontal)", "desc": "Mecanismo de cierre horizontal para puertas traseras de volquetes — duradero y fácil de operar.", "img": "https://tiimg.tistatic.com/fp/3/703/tipper-body-tail-door-locking-system-horizontal-type-650.jpg" },
+      { "id": "tail-door-chain", "name": "Sistema de Cierre de Puerta Trasera (Cadena)", "desc": "Sistema de cierre con cadena para puertas traseras de volquetes comerciales.", "img": "https://tiimg.tistatic.com/fp/5/703/tipper-body-tail-door-locking-system-chain-type-638.jpg" },
+      { "id": "tail-door-vertical", "name": "Sistema de Cierre de Puerta Trasera (Gancho Vertical)", "desc": "Ensamblaje de mecanismo de cierre con gancho vertical para cierre seguro de la puerta trasera.", "img": "https://tiimg.tistatic.com/fp/1/703/tail-door-locking-mechanism-assembly-vertical-hook-642.jpg" },
+      { "id": "hyfix-body-lock", "name": "Ensamblaje de Cierre de Carrocería Hyfix", "desc": "Ensamblajes de cierre Hyfix con soporte de bloqueo diseñados para uso intensivo en volquetes.", "img": "https://tiimg.tistatic.com/fp/4/703/tipper-body-lock-hyfix-assembly-636.jpg" },
+      { "id": "rear-hinge-bracket", "name": "Ensamblaje de Soporte de Bisagra Trasera", "desc": "Soportes de bisagra fabricados con precisión para una articulación segura de las carrocerías volquete.", "img": "https://cpimg.tistatic.com/00391247/b/5/Rear-Hinge-Bracket-Assembly.jpg" },
+      { "id": "profile-cut", "name": "Componentes Cortados por Perfil", "desc": "Componentes de acero cortados a medida, fabricados según especificaciones exactas.", "img": "https://tiimg.tistatic.com/fp/2/703/profile-cut-components-645.jpg" },
+      { "id": "cylinder-bracket", "name": "Soporte de Montaje de Cilindro Volquete", "desc": "Ensamblaje de cuna y soportes de montaje para cilindros hidráulicos de volquetes.", "img": "https://tiimg.tistatic.com/fp/2/703/tipper-cylinder-mounting-bracket-cradle-assembly-639.jpg" },
+      { "id": "tyre-winch", "name": "Malacate para Rueda de Repuesto", "desc": "Malacates robustos para transportar y desplegar ruedas de repuesto en camiones comerciales.", "img": "https://cpimg.tistatic.com/08957990/b/4/Tyre-Spare-Wheel-Lifting-Winch.jpg" },
+      { "id": "standard-components", "name": "Componentes Estándar de Carrocería Volquete", "desc": "Gama completa de piezas y subconjuntos de carrocería volquete para los principales OEM en India.", "img": "https://tiimg.tistatic.com/fp/3/703/standard-tipper-body-components-637.jpg" }
+    ]
+  },
+
+  "contact": {
+    "heading": "Contáctenos",
+    "subheading": "Envíenos una consulta o contáctenos directamente — respondemos en 24 horas",
+    "infoHeading": "Póngase en Contacto",
+    "infoItems": [
+      { "icon": "📍", "label": "Dirección", "value": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A,\nKopar Khairane, Navi Mumbai,\nMaharashtra – 400709" },
+      { "icon": "👤", "label": "Propietario", "value": "Sr. Sudhir Kumar" },
+      { "icon": "🕐", "label": "Horario de Atención", "value": "Lunes – Domingo\nAbierto todos los días" },
+      { "icon": "🏷️", "label": "Número GST", "value": "27AYYPS1105J1ZX" }
+    ],
+    "form": {
+      "ariaLabel": "Formulario de consulta",
+      "fields": [
+        { "id": "field-name",    "name": "name",    "label": "Nombre Completo", "type": "text",     "placeholder": "Su nombre",                      "required": true },
+        { "id": "field-email",   "name": "email",   "label": "Correo Electrónico", "type": "email", "placeholder": "su@correo.com",                  "required": true },
+        { "id": "field-phone",   "name": "phone",   "label": "Teléfono",        "type": "tel",      "placeholder": "+91 XXXXX XXXXX",                "required": false },
+        { "id": "field-subject", "name": "subject", "label": "Asunto",          "type": "text",     "placeholder": "ej. Consulta de producto",       "required": false },
+        { "id": "field-message", "name": "message", "label": "Mensaje",         "type": "textarea", "placeholder": "Describa su requerimiento...", "required": true }
+      ],
+      "submitLabel": "Enviar Consulta",
+      "errors": {
+        "name": "El nombre es obligatorio",
+        "email": "Se requiere un correo electrónico válido",
+        "message": "El mensaje es obligatorio"
+      },
+      "success": {
+        "heading": "¡Gracias por contactarnos!",
+        "body": "Hemos recibido su consulta y le responderemos dentro de las 24 horas.",
+        "reset": "Enviar otro mensaje"
+      }
+    }
+  },
+
+  "footer": {
+    "description": "Con más de 18 años de experiencia en la industria, Saideep Engineering Services suministra componentes de carrocería volquete de precisión, piezas hidráulicas y subconjuntos a fabricantes de vehículos comerciales en toda India. Calidad y confiabilidad — integradas en cada pieza que fabricamos.",
+    "badges": ["Conforme ISO", "Registrado GST", "Listo para Exportar"],
+    "navHeading": "Enlaces Rápidos",
+    "contactHeading": "Póngase en Contacto",
+    "contactItems": [
+      { "icon": "📍", "value": "802, Neelkanth Enclave, Plot 6 & 67,\nSec-2A, Kopar Khairane,\nNavi Mumbai – 400709, Maharashtra" },
+      { "icon": "👤", "value": "Sr. Sudhir Kumar, Propietario" },
+      { "icon": "🏷️", "value": "GST: 27AYYPS1105J1ZX" }
+    ],
+    "copyright": "Saideep Engineering Services. Todos los derechos reservados.",
+    "sub": "Navi Mumbai, Maharashtra, India · Fundada en 2007"
+  },
+
+  "langToggle": {
+    "label": "ES",
+    "ariaLabel": "Cambiar a español"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "company": {
+    "name": "Saideep Engineering Services",
+    "tagline": "Robust Gebaut. Gebaut für die Ewigkeit.",
+    "established": "2007",
+    "proprietor": "Hr. Sudhir Kumar",
+    "gst": "27AYYPS1105J1ZX",
+    "address": {
+      "line1": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A",
+      "line2": "Kopar Khairane",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "pin": "400709",
+      "country": "Indien"
+    },
+    "hours": "Montag – Sonntag, täglich geöffnet",
+    "tradeindia": "https://www.tradeindia.com/saideep-engineering-services-2893711/",
+    "rating": "4",
+    "ratingSource": "TradeIndia"
+  },
+
+  "nav": {
+    "ariaLabel": "Hauptnavigation",
+    "brandAriaLabel": "Saideep Engineering Services — nach oben",
+    "menuAriaLabel": "Menü öffnen/schließen",
+    "links": ["Startseite", "Über uns", "Produkte", "Kontakt"]
+  },
+
+  "hero": {
+    "eyebrow": "Gegr. 2007 · Navi Mumbai, Indien",
+    "title": "Robust Gebaut.",
+    "titleHighlight": "Gebaut für die Ewigkeit.",
+    "description": "Seit über 18 Jahren vertrauen Indiens Nutzfahrzeughersteller auf Saideep Engineering für Kipperaufbauteile, Hydraulikkomponenten und Unterbaugruppen, die realen Belastungen standhalten – pünktlich geliefert, jedes Mal.",
+    "ctaPrimary": "Unsere Produkte",
+    "ctaSecondary": "Angebot Anfragen",
+    "stats": [
+      { "value": "18+", "label": "Jahre Erfahrung", "ariaLabel": "Mehr als 18 Jahre" },
+      { "value": "2007", "label": "Gründungsjahr" },
+      { "value": "4★", "label": "TradeIndia Bewertung", "ariaLabel": "4-Sterne-Bewertung" }
+    ]
+  },
+
+  "about": {
+    "heading": "Über Uns",
+    "subheading": "Über 18 Jahre Ingenieursexzellenz in Navi Mumbai",
+    "sectionTitle": "Wer Wir Sind",
+    "body": [
+      "Gegründet 2007 von Hr. Sudhir Kumar ist Saideep Engineering Services ein in Navi Mumbai ansässiges Unternehmen, das sich auf die Herstellung und den Export hochwertiger Komponenten, Unterbaugruppen und Baugruppen für Kipperaufbauten spezialisiert hat.",
+      "Mit fast zwei Jahrzehnten praktischer Erfahrung haben wir uns einen Ruf für Präzision, Zuverlässigkeit und termingerechte Lieferung aufgebaut. Unsere Produkte erfüllen die strengen Anforderungen der indischen Nutzfahrzeugindustrie."
+    ],
+    "highlights": [
+      { "icon": "🏭", "title": "Hersteller", "desc": "Eigenfertigung von Präzisionsteilen und Baugruppen für Kipperaufbauten." },
+      { "icon": "🚢", "title": "Exporteur", "desc": "Export hochwertiger technischer Teile in Märkte außerhalb Indiens." },
+      { "icon": "🔩", "title": "Lieferant", "desc": "Zuverlässiger Lieferkettenpartner für Nutzfahrzeug-OEMs." },
+      { "icon": "✅", "title": "GST-Registriert", "desc": "GST-Nr.: 27AYYPS1105J1ZX — vollständig rechtskonformes Unternehmen." }
+    ]
+  },
+
+  "products": {
+    "heading": "Unsere Produkte",
+    "subheading": "Technische Komponenten, denen Nutzfahrzeughersteller in ganz Indien vertrauen",
+    "items": [
+      { "id": "tail-door-horizontal", "name": "Hecktür-Verriegelung (Horizontal)", "desc": "Horizontaler Verriegelungsmechanismus für Kipperhecktüren — robust und einfach zu bedienen.", "img": "https://tiimg.tistatic.com/fp/3/703/tipper-body-tail-door-locking-system-horizontal-type-650.jpg" },
+      { "id": "tail-door-chain", "name": "Hecktür-Verriegelung (Kettentyp)", "desc": "Kettenverriegelungssystem für Hecktüren gewerblicher Kipperfahrzeuge.", "img": "https://tiimg.tistatic.com/fp/5/703/tipper-body-tail-door-locking-system-chain-type-638.jpg" },
+      { "id": "tail-door-vertical", "name": "Hecktür-Verriegelung (Vertikalhaken)", "desc": "Vertikalhaken-Verriegelungsbaugruppe für sicheren Hecktürverschluss.", "img": "https://tiimg.tistatic.com/fp/1/703/tail-door-locking-mechanism-assembly-vertical-hook-642.jpg" },
+      { "id": "hyfix-body-lock", "name": "Hyfix-Karosserieverschluss", "desc": "Hyfix-Verschlussbaugruppen mit Verriegelungshalterung für Hochlastanwendungen.", "img": "https://tiimg.tistatic.com/fp/4/703/tipper-body-lock-hyfix-assembly-636.jpg" },
+      { "id": "rear-hinge-bracket", "name": "Hinterachsschanierhalterung", "desc": "Präzisionsgefertigte Scharnierhalterungen für sichere Kippaufbauartikulation.", "img": "https://cpimg.tistatic.com/00391247/b/5/Rear-Hinge-Bracket-Assembly.jpg" },
+      { "id": "profile-cut", "name": "Profilschnittteile", "desc": "Maßgefertigte Stahlteile mit Profilschnitt nach genauen Spezifikationen.", "img": "https://tiimg.tistatic.com/fp/2/703/profile-cut-components-645.jpg" },
+      { "id": "cylinder-bracket", "name": "Zylinderbefestigungshalterung", "desc": "Wiegenanordnung und Befestigungshalterungen für Kipperhydraulikzylinder.", "img": "https://tiimg.tistatic.com/fp/2/703/tipper-cylinder-mounting-bracket-cradle-assembly-639.jpg" },
+      { "id": "tyre-winch", "name": "Reifenhubwinde", "desc": "Robuste Winden für den Transport und Einsatz von Reservereifen an Nutzfahrzeugen.", "img": "https://cpimg.tistatic.com/08957990/b/4/Tyre-Spare-Wheel-Lifting-Winch.jpg" },
+      { "id": "standard-components", "name": "Standard-Kipperaufbauteile", "desc": "Komplettes Sortiment an Kipperaufbauteilen und Unterbaugruppen für führende OEMs in Indien.", "img": "https://tiimg.tistatic.com/fp/3/703/standard-tipper-body-components-637.jpg" }
+    ]
+  },
+
+  "contact": {
+    "heading": "Kontakt",
+    "subheading": "Senden Sie uns eine Anfrage oder kontaktieren Sie uns direkt — wir antworten innerhalb von 24 Stunden",
+    "infoHeading": "Kontaktieren Sie Uns",
+    "infoItems": [
+      { "icon": "📍", "label": "Adresse", "value": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A,\nKopar Khairane, Navi Mumbai,\nMaharashtra – 400709" },
+      { "icon": "👤", "label": "Inhaber", "value": "Hr. Sudhir Kumar" },
+      { "icon": "🕐", "label": "Öffnungszeiten", "value": "Montag – Sonntag\nTäglich geöffnet" },
+      { "icon": "🏷️", "label": "GST-Nummer", "value": "27AYYPS1105J1ZX" }
+    ],
+    "form": {
+      "ariaLabel": "Anfrageformular",
+      "fields": [
+        { "id": "field-name",    "name": "name",    "label": "Vollständiger Name", "type": "text",     "placeholder": "Ihr Name",               "required": true },
+        { "id": "field-email",   "name": "email",   "label": "E-Mail",             "type": "email",    "placeholder": "ihre@email.de",          "required": true },
+        { "id": "field-phone",   "name": "phone",   "label": "Telefon",            "type": "tel",      "placeholder": "+91 XXXXX XXXXX",        "required": false },
+        { "id": "field-subject", "name": "subject", "label": "Betreff",            "type": "text",     "placeholder": "z.B. Produktanfrage",    "required": false },
+        { "id": "field-message", "name": "message", "label": "Nachricht",          "type": "textarea", "placeholder": "Beschreiben Sie Ihren Bedarf...", "required": true }
+      ],
+      "submitLabel": "Anfrage Senden",
+      "errors": {
+        "name": "Name ist erforderlich",
+        "email": "Gültige E-Mail-Adresse erforderlich",
+        "message": "Nachricht ist erforderlich"
+      },
+      "success": {
+        "heading": "Vielen Dank für Ihre Anfrage!",
+        "body": "Wir haben Ihre Anfrage erhalten und werden uns innerhalb von 24 Stunden bei Ihnen melden.",
+        "reset": "Weitere Nachricht senden"
+      }
+    }
+  },
+
+  "footer": {
+    "description": "Mit über 18 Jahren Branchenerfahrung liefert Saideep Engineering Services präzisionsgefertigte Kipperaufbauteile, Hydraulikkomponenten und Unterbaugruppen an Nutzfahrzeughersteller in ganz Indien. Qualität und Zuverlässigkeit — in jedes Teil eingebaut.",
+    "badges": ["ISO-konform", "GST-registriert", "Exportbereit"],
+    "navHeading": "Schnelllinks",
+    "contactHeading": "Kontaktieren Sie Uns",
+    "contactItems": [
+      { "icon": "📍", "value": "802, Neelkanth Enclave, Plot 6 & 67,\nSec-2A, Kopar Khairane,\nNavi Mumbai – 400709, Maharashtra" },
+      { "icon": "👤", "value": "Hr. Sudhir Kumar, Inhaber" },
+      { "icon": "🏷️", "value": "GST-Nr.: 27AYYPS1105J1ZX" }
+    ],
+    "copyright": "Saideep Engineering Services. Alle Rechte vorbehalten.",
+    "sub": "Navi Mumbai, Maharashtra, Indien · Gegr. 2007"
+  },
+
+  "langToggle": {
+    "label": "DE",
+    "ariaLabel": "Auf Deutsch wechseln"
+  }
+}
