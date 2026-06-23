@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import './Navbar.css'
 
+const prefersReducedMotion = () =>
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -15,28 +18,47 @@ export default function Navbar() {
 
   const scrollTo = (id) => {
     const el = document.getElementById(id.toLowerCase())
-    if (el) el.scrollIntoView({ behavior: 'smooth' })
+    if (el) el.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth' })
     setMenuOpen(false)
   }
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      <div className="nav-brand" onClick={() => scrollTo('home')}>
-        <span className="brand-icon">⚙</span>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label="Main navigation">
+      <button
+        className="nav-brand"
+        onClick={() => scrollTo('home')}
+        aria-label="Saideep Engineering Services — go to top"
+      >
+        <span className="brand-icon" aria-hidden="true">⚙</span>
         <div>
           <div className="brand-name">Saideep Engineering</div>
           <div className="brand-tag">Services</div>
         </div>
-      </div>
-      <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
-        <span /><span /><span />
       </button>
-      <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        {links.map(l => (
-          <li key={l}>
-            <button onClick={() => scrollTo(l === 'Home' ? 'home' : l.toLowerCase())}>{l}</button>
-          </li>
-        ))}
+
+      <button
+        className="hamburger"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle navigation menu"
+        aria-expanded={menuOpen}
+        aria-controls="nav-menu"
+      >
+        <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
+      </button>
+
+      <ul
+        id="nav-menu"
+        className={`nav-links ${menuOpen ? 'open' : ''}`}
+        role="list"
+      >
+        {links.map(l => {
+          const id = l === 'Home' ? 'home' : l.toLowerCase()
+          return (
+            <li key={l}>
+              <button onClick={() => scrollTo(id)}>{l}</button>
+            </li>
+          )
+        })}
       </ul>
     </nav>
   )

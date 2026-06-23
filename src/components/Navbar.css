@@ -23,6 +23,16 @@
   gap: 10px;
   cursor: pointer;
   color: #fff;
+  background: none;
+  border: none;
+  font-family: inherit;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.nav-brand:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 3px;
 }
 
 .brand-icon {
@@ -75,6 +85,17 @@
   border: none;
   cursor: pointer;
   padding: 4px;
+  border-radius: 4px;
+}
+
+.hamburger:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 3px;
+}
+
+.nav-links li button:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
 }
 
 .hamburger span {

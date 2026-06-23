@@ -5,8 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saideep Engineering Services</title>
+    <style>
+      .skip-link {
+        position: fixed;
+        top: -100%;
+        left: 16px;
+        z-index: 9999;
+        background: #f97316;
+        color: #111;
+        font-weight: 700;
+        padding: 12px 20px;
+        border-radius: 0 0 6px 6px;
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: top 0.15s;
+      }
+      .skip-link:focus { top: 0; }
+    </style>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

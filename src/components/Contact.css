@@ -93,6 +93,12 @@
   border-color: #f97316;
 }
 
+.form-group input:focus-visible,
+.form-group textarea:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 1px;
+}
+
 .err {
   color: #c0392b;
   font-size: 0.78rem;
@@ -115,6 +121,17 @@
   background: #f97316;
   color: #111111;
   transform: translateY(-1px);
+}
+
+.submit-btn:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .submit-btn:hover {
+    transform: none;
+  }
 }
 
 .success-msg {

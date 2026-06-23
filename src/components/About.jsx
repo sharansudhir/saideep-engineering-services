@@ -9,9 +9,9 @@ const highlights = [
 
 export default function About() {
   return (
-    <section id="about" className="about">
-      <h2 className="section-title">About Us</h2>
-      <span className="underline" />
+    <section id="about" className="about" aria-labelledby="about-heading">
+      <h2 id="about-heading" className="section-title">About Us</h2>
+      <span className="underline" aria-hidden="true" />
       <p className="section-subtitle">
         Over 18 years of engineering excellence in Navi Mumbai
       </p>
@@ -31,15 +31,21 @@ export default function About() {
             of India's commercial transportation industry.
           </p>
           <div className="about-detail">
-            <div><span>📍</span> 802, Neelkanth Enclave, Plot 6 &amp; 67, Sec-2A, Kopar Khairane, Navi Mumbai – 400709</div>
-            <div><span>🗓</span> Established 2007 &nbsp;·&nbsp; Operating 7 days a week</div>
+            <div>
+              <span aria-hidden="true">📍</span>
+              {' '}802, Neelkanth Enclave, Plot 6 &amp; 67, Sec-2A, Kopar Khairane, Navi Mumbai – 400709
+            </div>
+            <div>
+              <span aria-hidden="true">🗓</span>
+              {' '}Established 2007 &nbsp;·&nbsp; Operating 7 days a week
+            </div>
           </div>
         </div>
 
         <div className="about-cards">
           {highlights.map(h => (
             <div className="about-card" key={h.title}>
-              <div className="about-card-icon">{h.icon}</div>
+              <div className="about-card-icon" aria-hidden="true">{h.icon}</div>
               <h4>{h.title}</h4>
               <p>{h.desc}</p>
             </div>
