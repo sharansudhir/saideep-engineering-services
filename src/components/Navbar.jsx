@@ -33,7 +33,27 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label={nav.ariaLabel}>
-      <div className="nav-left">
+      <button
+        className="nav-brand"
+        onClick={() => scrollTo('Home')}
+        aria-label={nav.brandAriaLabel}
+      >
+        <span className="brand-icon" aria-hidden="true">⚙</span>
+        <div>
+          <div className="brand-name">Saideep Engineering</div>
+          <div className="brand-tag">Services</div>
+        </div>
+      </button>
+
+      <div className="nav-right">
+        <ul id="nav-menu" className={`nav-links ${menuOpen ? 'open' : ''}`} role="list">
+          {nav.links.map(l => (
+            <li key={l}>
+              <button onClick={() => scrollTo(l)}>{l}</button>
+            </li>
+          ))}
+        </ul>
+
         <select
           className="lang-select"
           value={locale}
@@ -46,35 +66,15 @@ export default function Navbar() {
         </select>
 
         <button
-          className="nav-brand"
-          onClick={() => scrollTo('Home')}
-          aria-label={nav.brandAriaLabel}
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={nav.menuAriaLabel}
+          aria-expanded={menuOpen}
+          aria-controls="nav-menu"
         >
-          <span className="brand-icon" aria-hidden="true">⚙</span>
-          <div>
-            <div className="brand-name">Saideep Engineering</div>
-            <div className="brand-tag">Services</div>
-          </div>
+          <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
         </button>
       </div>
-
-      <button
-        className="hamburger"
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label={nav.menuAriaLabel}
-        aria-expanded={menuOpen}
-        aria-controls="nav-menu"
-      >
-        <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
-      </button>
-
-      <ul id="nav-menu" className={`nav-links ${menuOpen ? 'open' : ''}`} role="list">
-        {nav.links.map(l => (
-          <li key={l}>
-            <button onClick={() => scrollTo(l)}>{l}</button>
-          </li>
-        ))}
-      </ul>
     </nav>
   )
 }

@@ -17,11 +17,11 @@
   box-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
-/* Left cluster: language select + brand */
-.nav-left {
+/* Right cluster: nav links + language select + hamburger */
+.nav-right {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
 }
 
 .lang-select {
