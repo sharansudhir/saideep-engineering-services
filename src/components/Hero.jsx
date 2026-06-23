@@ -1,12 +1,13 @@
-import content from '../content/en-IN.json'
+import { useLocale } from '../i18n/LocaleContext'
 import './Hero.css'
-
-const { hero, company } = content
 
 const prefersReducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 export default function Hero() {
+  const { content } = useLocale()
+  const { hero } = content
+
   const scrollTo = (id) => {
     const el = document.getElementById(id)
     if (el) el.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth' })

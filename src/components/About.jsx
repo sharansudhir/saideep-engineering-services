@@ -1,9 +1,10 @@
-import content from '../content/en-IN.json'
+import { useLocale } from '../i18n/LocaleContext'
 import './About.css'
 
-const { about, company } = content
-
 export default function About() {
+  const { content } = useLocale()
+  const { about, company } = content
+
   return (
     <section id="about" className="about" aria-labelledby="about-heading">
       <h2 id="about-heading" className="section-title">{about.heading}</h2>

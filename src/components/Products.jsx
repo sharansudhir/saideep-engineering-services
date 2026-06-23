@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import content from '../content/en-IN.json'
+import { useLocale } from '../i18n/LocaleContext'
 import './Products.css'
 
-const { products: productsContent } = content
-
 export default function Products() {
+  const { content } = useLocale()
+  const { products: productsContent } = content
   const [imgErrors, setImgErrors] = useState({})
 
-  const handleImgError = (id) => {
-    setImgErrors(e => ({ ...e, [id]: true }))
-  }
+  const handleImgError = (id) => setImgErrors(e => ({ ...e, [id]: true }))
 
   return (
     <section id="products" className="products" aria-labelledby="products-heading">

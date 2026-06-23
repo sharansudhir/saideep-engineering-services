@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react'
-import content from '../content/en-IN.json'
+import { useLocale } from '../i18n/LocaleContext'
 import './Navbar.css'
-
-const { nav } = content
 
 const prefersReducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 export default function Navbar() {
+  const { content, locale, toggle } = useLocale()
+  const { nav, langToggle } = content
+
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -17,8 +18,15 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const scrollTo = (id) => {
-    const el = document.getElementById(id.toLowerCase())
+  const scrollTo = (label) => {
+    const idMap = {
+      Home: 'home', Accueil: 'home',
+      About: 'about', 'À propos': 'about',
+      Products: 'products', Produits: 'products',
+      Contact: 'contact',
+    }
+    const id = idMap[label] ?? label.toLowerCase()
+    const el = document.getElementById(id)
     if (el) el.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth' })
     setMenuOpen(false)
   }
@@ -27,7 +35,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} aria-label={nav.ariaLabel}>
       <button
         className="nav-brand"
-        onClick={() => scrollTo('home')}
+        onClick={() => scrollTo('Home')}
         aria-label={nav.brandAriaLabel}
       >
         <span className="brand-icon" aria-hidden="true">⚙</span>
@@ -37,22 +45,37 @@ export default function Navbar() {
         </div>
       </button>
 
-      <button
-        className="hamburger"
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label={nav.menuAriaLabel}
-        aria-expanded={menuOpen}
-        aria-controls="nav-menu"
-      >
-        <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
-      </button>
+      <div className="nav-right">
+        <button
+          className="lang-toggle"
+          onClick={toggle}
+          aria-label={langToggle.ariaLabel}
+        >
+          {langToggle.label}
+        </button>
+
+        <button
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={nav.menuAriaLabel}
+          aria-expanded={menuOpen}
+          aria-controls="nav-menu"
+        >
+          <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
+        </button>
+      </div>
 
       <ul id="nav-menu" className={`nav-links ${menuOpen ? 'open' : ''}`} role="list">
         {nav.links.map(l => (
           <li key={l}>
-            <button onClick={() => scrollTo(l === 'Home' ? 'home' : l.toLowerCase())}>{l}</button>
+            <button onClick={() => scrollTo(l)}>{l}</button>
           </li>
         ))}
+        <li className="lang-toggle-mobile">
+          <button onClick={toggle} aria-label={langToggle.ariaLabel}>
+            {langToggle.label}
+          </button>
+        </li>
       </ul>
     </nav>
   )

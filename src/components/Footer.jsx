@@ -1,13 +1,21 @@
-import content from '../content/en-IN.json'
+import { useLocale } from '../i18n/LocaleContext'
 import './Footer.css'
-
-const { footer, nav, company } = content
 
 const prefersReducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 export default function Footer() {
-  const scrollTo = (id) => {
+  const { content } = useLocale()
+  const { footer, nav, company } = content
+
+  const scrollTo = (label) => {
+    const idMap = {
+      Home: 'home', Accueil: 'home',
+      About: 'about', 'À propos': 'about',
+      Products: 'products', Produits: 'products',
+      Contact: 'contact',
+    }
+    const id = idMap[label] ?? label.toLowerCase()
     const el = document.getElementById(id)
     if (el) el.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth' })
   }
@@ -32,7 +40,7 @@ export default function Footer() {
           <ul aria-labelledby="footer-nav-heading">
             {nav.links.map(label => (
               <li key={label}>
-                <button onClick={() => scrollTo(label.toLowerCase())}>{label}</button>
+                <button onClick={() => scrollTo(label)}>{label}</button>
               </li>
             ))}
           </ul>

@@ -166,6 +166,11 @@
     }
   },
 
+  "langToggle": {
+    "label": "FR",
+    "ariaLabel": "Passer au français"
+  },
+
   "footer": {
     "description": "With over 18 years of industry experience, Saideep Engineering Services delivers precision-engineered tipper body components, hydraulic parts, and sub-assemblies to commercial vehicle manufacturers across India. Quality and reliability — built into every part we make.",
     "badges": ["ISO Compliant", "GST Registered", "Export Ready"],

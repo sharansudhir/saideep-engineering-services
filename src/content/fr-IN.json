@@ -1,0 +1,187 @@
+{
+  "company": {
+    "name": "Saideep Engineering Services",
+    "tagline": "Construit Robuste. Construit pour Durer.",
+    "established": "2007",
+    "proprietor": "M. Sudhir Kumar",
+    "gst": "27AYYPS1105J1ZX",
+    "address": {
+      "line1": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A",
+      "line2": "Kopar Khairane",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "pin": "400709",
+      "country": "Inde"
+    },
+    "hours": "Lundi – Dimanche, Ouvert tous les jours",
+    "tradeindia": "https://www.tradeindia.com/saideep-engineering-services-2893711/",
+    "rating": "4",
+    "ratingSource": "TradeIndia"
+  },
+
+  "nav": {
+    "ariaLabel": "Navigation principale",
+    "brandAriaLabel": "Saideep Engineering Services — retour en haut",
+    "menuAriaLabel": "Ouvrir/fermer le menu",
+    "links": ["Accueil", "À propos", "Produits", "Contact"]
+  },
+
+  "hero": {
+    "eyebrow": "Fondé en 2007 · Navi Mumbai, Inde",
+    "title": "Construit Robuste.",
+    "titleHighlight": "Construit pour Durer.",
+    "description": "Depuis plus de 18 ans, les fabricants de véhicules commerciaux en Inde font confiance à Saideep Engineering pour leurs composants de carrosserie basculante, pièces hydrauliques et sous-assemblages qui résistent aux conditions réelles — livrés à temps, à chaque fois.",
+    "ctaPrimary": "Nos Produits",
+    "ctaSecondary": "Demander un Devis",
+    "stats": [
+      { "value": "18+", "label": "Années d'Expérience", "ariaLabel": "Plus de 18 ans" },
+      { "value": "2007", "label": "Année de Fondation" },
+      { "value": "4★", "label": "Note TradeIndia", "ariaLabel": "Note 4 étoiles" }
+    ]
+  },
+
+  "about": {
+    "heading": "À Propos",
+    "subheading": "Plus de 18 ans d'excellence en ingénierie à Navi Mumbai",
+    "sectionTitle": "Qui Sommes-Nous",
+    "body": [
+      "Fondée en 2007 par M. Sudhir Kumar, Saideep Engineering Services est une entreprise basée à Navi Mumbai, spécialisée dans la fabrication et l'exportation de composants, sous-assemblages et assemblages de haute qualité pour carrosseries basculantes, utilisés par les grands fabricants de véhicules commerciaux en Inde.",
+      "Avec près de deux décennies d'expérience pratique, nous avons bâti une réputation de précision, fiabilité et livraison dans les délais. Nos produits répondent aux exigences rigoureuses du secteur du transport commercial en Inde."
+    ],
+    "highlights": [
+      {
+        "icon": "🏭",
+        "title": "Fabricant",
+        "desc": "Fabrication en interne de composants et assemblages de précision pour carrosseries basculantes."
+      },
+      {
+        "icon": "🚢",
+        "title": "Exportateur",
+        "desc": "Exportation de pièces d'ingénierie de qualité vers des marchés au-delà de l'Inde."
+      },
+      {
+        "icon": "🔩",
+        "title": "Fournisseur",
+        "desc": "Partenaire logistique fiable pour les équipementiers de véhicules commerciaux."
+      },
+      {
+        "icon": "✅",
+        "title": "Enregistré TVA",
+        "desc": "N° GST : 27AYYPS1105J1ZX — entreprise pleinement conforme."
+      }
+    ]
+  },
+
+  "products": {
+    "heading": "Nos Produits",
+    "subheading": "Composants d'ingénierie approuvés par les fabricants de véhicules commerciaux en Inde",
+    "items": [
+      {
+        "id": "tail-door-horizontal",
+        "name": "Système de Verrouillage de Hayon (Horizontal)",
+        "desc": "Mécanisme de verrouillage horizontal pour hayons de bennes — robuste et facile à utiliser.",
+        "img": "https://tiimg.tistatic.com/fp/3/703/tipper-body-tail-door-locking-system-horizontal-type-650.jpg"
+      },
+      {
+        "id": "tail-door-chain",
+        "name": "Système de Verrouillage de Hayon (Chaîne)",
+        "desc": "Système de verrouillage à chaîne pour hayons de bennes commerciales.",
+        "img": "https://tiimg.tistatic.com/fp/5/703/tipper-body-tail-door-locking-system-chain-type-638.jpg"
+      },
+      {
+        "id": "tail-door-vertical",
+        "name": "Système de Verrouillage de Hayon (Crochet Vertical)",
+        "desc": "Ensemble de mécanisme de verrouillage à crochet vertical pour fermeture sécurisée du hayon.",
+        "img": "https://tiimg.tistatic.com/fp/1/703/tail-door-locking-mechanism-assembly-vertical-hook-642.jpg"
+      },
+      {
+        "id": "hyfix-body-lock",
+        "name": "Ensemble Verrou Hyfix",
+        "desc": "Ensembles de verrouillage Hyfix avec support de verrou, conçus pour usage intensif sur bennes.",
+        "img": "https://tiimg.tistatic.com/fp/4/703/tipper-body-lock-hyfix-assembly-636.jpg"
+      },
+      {
+        "id": "rear-hinge-bracket",
+        "name": "Ensemble Support de Charnière Arrière",
+        "desc": "Supports de charnière fabriqués avec précision pour une articulation sécurisée des carrosseries basculantes.",
+        "img": "https://cpimg.tistatic.com/00391247/b/5/Rear-Hinge-Bracket-Assembly.jpg"
+      },
+      {
+        "id": "profile-cut",
+        "name": "Composants Découpés au Profil",
+        "desc": "Composants en acier découpés sur mesure, fabriqués selon des spécifications exactes.",
+        "img": "https://tiimg.tistatic.com/fp/2/703/profile-cut-components-645.jpg"
+      },
+      {
+        "id": "cylinder-bracket",
+        "name": "Support de Montage de Vérin Basculant",
+        "desc": "Ensemble berceau et supports de montage pour vérins hydrauliques de bennes.",
+        "img": "https://tiimg.tistatic.com/fp/2/703/tipper-cylinder-mounting-bracket-cradle-assembly-639.jpg"
+      },
+      {
+        "id": "tyre-winch",
+        "name": "Treuil de Levage Roue de Secours",
+        "desc": "Treuils robustes pour le transport et le déploiement des roues de secours sur camions commerciaux.",
+        "img": "https://cpimg.tistatic.com/08957990/b/4/Tyre-Spare-Wheel-Lifting-Winch.jpg"
+      },
+      {
+        "id": "standard-components",
+        "name": "Composants Standard de Carrosserie Basculante",
+        "desc": "Gamme complète de pièces et sous-assemblages pour carrosseries basculantes pour les grands équipementiers en Inde.",
+        "img": "https://tiimg.tistatic.com/fp/3/703/standard-tipper-body-components-637.jpg"
+      }
+    ]
+  },
+
+  "contact": {
+    "heading": "Contactez-Nous",
+    "subheading": "Envoyez-nous une demande ou contactez-nous directement — nous répondons sous 24 heures",
+    "infoHeading": "Nous Contacter",
+    "infoItems": [
+      { "icon": "📍", "label": "Adresse", "value": "802, Neelkanth Enclave, Plot 6 & 67, Sec-2A,\nKopar Khairane, Navi Mumbai,\nMaharashtra – 400709" },
+      { "icon": "👤", "label": "Propriétaire", "value": "M. Sudhir Kumar" },
+      { "icon": "🕐", "label": "Heures d'Ouverture", "value": "Lundi – Dimanche\nOuvert tous les jours" },
+      { "icon": "🏷️", "label": "Numéro GST", "value": "27AYYPS1105J1ZX" }
+    ],
+    "form": {
+      "ariaLabel": "Formulaire de demande",
+      "fields": [
+        { "id": "field-name",    "name": "name",    "label": "Nom Complet",  "type": "text",     "placeholder": "Votre nom",                    "required": true },
+        { "id": "field-email",   "name": "email",   "label": "E-mail",       "type": "email",    "placeholder": "votre@email.com",              "required": true },
+        { "id": "field-phone",   "name": "phone",   "label": "Téléphone",    "type": "tel",      "placeholder": "+91 XXXXX XXXXX",              "required": false },
+        { "id": "field-subject", "name": "subject", "label": "Objet",        "type": "text",     "placeholder": "ex. Demande de produit",       "required": false },
+        { "id": "field-message", "name": "message", "label": "Message",      "type": "textarea", "placeholder": "Décrivez votre besoin...",     "required": true }
+      ],
+      "submitLabel": "Envoyer la Demande",
+      "errors": {
+        "name": "Le nom est requis",
+        "email": "Une adresse e-mail valide est requise",
+        "message": "Le message est requis"
+      },
+      "success": {
+        "heading": "Merci de nous avoir contactés !",
+        "body": "Nous avons bien reçu votre demande et vous répondrons dans les 24 heures.",
+        "reset": "Envoyer un autre message"
+      }
+    }
+  },
+
+  "footer": {
+    "description": "Avec plus de 18 ans d'expérience dans le secteur, Saideep Engineering Services fournit des composants de carrosserie basculante, des pièces hydrauliques et des sous-assemblages de précision aux fabricants de véhicules commerciaux à travers l'Inde. La qualité et la fiabilité — intégrées dans chaque pièce que nous fabriquons.",
+    "badges": ["Conforme ISO", "Enregistré GST", "Prêt à l'Export"],
+    "navHeading": "Liens Rapides",
+    "contactHeading": "Nous Contacter",
+    "contactItems": [
+      { "icon": "📍", "value": "802, Neelkanth Enclave, Plot 6 & 67,\nSec-2A, Kopar Khairane,\nNavi Mumbai – 400709, Maharashtra" },
+      { "icon": "👤", "value": "M. Sudhir Kumar, Propriétaire" },
+      { "icon": "🏷️", "value": "GSTIN : 27AYYPS1105J1ZX" }
+    ],
+    "copyright": "Saideep Engineering Services. Tous droits réservés.",
+    "sub": "Navi Mumbai, Maharashtra, Inde · Fondé en 2007"
+  },
+
+  "langToggle": {
+    "label": "EN",
+    "ariaLabel": "Switch to English"
+  }
+}

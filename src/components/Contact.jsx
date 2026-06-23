@@ -1,13 +1,14 @@
 import { useState, useEffect, useRef } from 'react'
-import content from '../content/en-IN.json'
+import { useLocale } from '../i18n/LocaleContext'
 import './Contact.css'
 
-const { contact } = content
-const { form: formContent } = contact
-
-const initialForm = Object.fromEntries(formContent.fields.map(f => [f.name, '']))
+const initialForm = { name: '', email: '', phone: '', subject: '', message: '' }
 
 export default function Contact() {
+  const { content } = useLocale()
+  const { contact } = content
+  const { form: formContent } = contact
+
   const [form, setForm] = useState(initialForm)
   const [submitted, setSubmitted] = useState(false)
   const [errors, setErrors] = useState({})
@@ -40,12 +41,10 @@ export default function Contact() {
   const resetForm = () => {
     setSubmitted(false)
     setForm(initialForm)
+    setErrors({})
   }
 
-  const rowFields = [
-    formContent.fields.slice(0, 2),
-    formContent.fields.slice(2, 4),
-  ]
+  const rowFields = [formContent.fields.slice(0, 2), formContent.fields.slice(2, 4)]
   const messageField = formContent.fields[4]
 
   return (
@@ -112,7 +111,6 @@ export default function Contact() {
                   ))}
                 </div>
               ))}
-
               <div className="form-group">
                 <label htmlFor={messageField.id}>
                   {messageField.label}
@@ -133,7 +131,6 @@ export default function Contact() {
                   <span id={`err-${messageField.name}`} className="err" role="alert">{errors[messageField.name]}</span>
                 )}
               </div>
-
               <button type="submit" className="submit-btn">{formContent.submitLabel}</button>
             </form>
           )}
